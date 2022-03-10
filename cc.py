@@ -649,7 +649,7 @@ def main():
 	print("> Mode: [cc/post/head/slow/check]")
 	mode = InputOption("> Choose Your Mode (default=cc) :",["cc","post","head","slow","check"],"cc")
 	url = str(input("> Input the target url:")).strip()
-        ParseUrl(url)
+	ParseUrl(url)
 	if mode == "post":
 		mode2 = InputOption("> Customize post data? (y/n, default=n):",["y","n","yes","no"],"n")
 		if mode2 == "y":
@@ -717,4 +717,4 @@ def main():
 	
 
 if __name__ == "__main__":
-	main()#Coded by ugolovnik
+	main()#Coded by Leeon123
